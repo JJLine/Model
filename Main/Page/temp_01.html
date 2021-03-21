@@ -1,56 +1,58 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <!-- 重粉 -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no"/>
     <style>
-            /*css*/
-            .testPage {
-                background-color: red;
-            }
+        /*css*/
+        .testPage {
+            background-color: red;
+        }
 
-            body {
-                /*background-color: yellow;*/
-            }
+        body {
+            /*background-color: yellow;*/
+        }
 
-            h1 {
-                color: red;
-                display: flex;
-                justify-content: center;
-            }
+        h1 {
+            color: red;
+            display: flex;
+            justify-content: center;
+        }
 
-            img {
-                width: 100%;
-                height: 200px;
-            }
+        img {
+            width: 100%;
+            height: 200px;
+        }
 
-            p {
-                /*color: blue;*/
-                display: flex;
-                justify-content: start;
-                font-family: verdana, serif;
-            }
+        p {
+            /*color: blue;*/
+            display: flex;
+            justify-content: start;
+            font-family: verdana, serif;
+        }
 
-            .linke {
-                /*white-space: nowrap;*/
-                font-weight: bold;
-                text-decoration: underline;
-                cursor: pointer;
-            }
+        .linke {
+            /*white-space: nowrap;*/
+            font-weight: bold;
+            text-decoration: underline;
+            cursor: pointer;
+        }
 
-            .debug {
-                font-size: 16pt;
-                color: red;
-            }
+        .debug {
+            font-size: 16pt;
+            color: red;
+        }
 
-        </style>
+    </style>
+    <script src="https://raw.githubusercontent.com/WJYSYZS/MyProject/main/js/xmlRequest.js"></script>
 </head>
 <title>
     AppName
 </title>
 <body class="testPage">
 <h1 style="color: yellow">
-    *** TEST PAGE ***
+    *** TEST PAGE - XmlRequest ***
 </h1>
 
 <p class="p1">我最近在靠写历史稿吃饭，昨天写了一篇三千字的，其实稿费只有三十五元，不过因我文笔一般，愣是写了一个多小时。当我把它发给老板之后，很快就被打回来了。</p>
@@ -74,6 +76,8 @@
 
 <div class="debug logs">****</div>
 <div class="debug numberShow">****</div>
+
+<div class="debug xmlRequest">********</div>
 
 <p>点我点我</p>
 
@@ -133,8 +137,8 @@
     function getLocalStorage() {
 
         let info = {
-          'isOld': false,
-          'value': ''
+            'isOld': false,
+            'value': ''
         };
 
         const phone = localStorage.getItem("number");
@@ -151,10 +155,32 @@
         }
         return info;
     }
+
+
+    // xml request
+    function statisticEvent() {
+        xmlRequest({
+            method: "POST",
+            url: 'https://getman.cn/mock/test/123',
+            data: null,
+            success: function(res) {
+                console.log(res);
+                if (null != res) {
+                    if (res.status === true) {
+                        document.getElementsByClassName('xmlRequest').item(0).innerHTML = '请求成功！！！！' + res;
+                        return;
+                    }
+                }
+                document.getElementsByClassName('xmlRequest').item(0).innerHTML = '请求失败';
+            }
+        })
+    }
+
 </script>
 
 <script>
     runTestApp();
+    statisticEvent();
 </script>
 </body>
 </html>
