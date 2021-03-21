@@ -1,6 +1,5 @@
 `{
     "git":"http://htmlpreview.github.io/",
-    "token":"ATKVD4UURRC6GCKZ3AMDHWTAK5IYW",
     "open":false,
     "url":"",
     "modelList":[
@@ -10,32 +9,32 @@
                 {
                     "analysis":true,
                     "title":"知乎",
-                    "image":"https://raw.githubusercontent.com/JJLine/Model/main/Main/Img/temp_001.jpg?token=",
+                    "image":"https://raw.githubusercontent.com/JJLine/Model/main/Main/Img/temp_001.jpg",
                     "content":"https://www.zhihu.com/"
                 },
                 {
                     "analysis":true,
                     "title":"TestPage",
-                    "image":"https://raw.githubusercontent.com/JJLine/Model/main/Main/Img/temp_001.jpg?token=",
-                    "content":"https://raw.githubusercontent.com/JJLine/Model/main/Main/Page/temp.html?token="
+                    "image":"https://raw.githubusercontent.com/JJLine/Model/main/Main/Img/temp_001.jpg",
+                    "content":"https://raw.githubusercontent.com/JJLine/Model/main/Main/Page/temp.html"
                 },
                 {
                     "analysis":false,
                     "title":"TestPage2",
-                    "image":"https://raw.githubusercontent.com/JJLine/Model/main/Main/Img/temp_001.jpg?token=",
-                    "content":"https://raw.githubusercontent.com/JJLine/Model/main/Main/Page/temp_01.html?token="
+                    "image":"https://raw.githubusercontent.com/JJLine/Model/main/Main/Img/temp_001.jpg",
+                    "content":"https://raw.githubusercontent.com/JJLine/Model/main/Main/Page/temp_01.html"
                 },
                 {
                     "analysis":true,
                     "title":"TestPage3",
-                    "image":"https://raw.githubusercontent.com/JJLine/Model/main/Main/Img/temp_01.jpg?token=",
+                    "image":"https://raw.githubusercontent.com/JJLine/Model/main/Main/Img/temp_01.jpg",
                     "content":"https://api.tikoolk.com/article/209"
                 },
                 {
                     "analysis":false,
                     "title":"TestPage4",
-                    "image":"https://raw.githubusercontent.com/JJLine/Model/main/Main/Img/temp_001.jpg?token=",
-                    "content":"https://raw.githubusercontent.com/JJLine/Model/main/Main/Page/Jump.html?token="
+                    "image":"https://raw.githubusercontent.com/JJLine/Model/main/Main/Img/temp_001.jpg",
+                    "content":"https://raw.githubusercontent.com/JJLine/Model/main/Main/Page/Jump.html"
                 }
             ]
         },
@@ -45,14 +44,14 @@
                 {
                     "analysis":false,
                     "title":"知乎",
-                    "image":"https://raw.githubusercontent.com/JJLine/Model/main/Main/Img/temp_001.jpg?token=",
+                    "image":"https://raw.githubusercontent.com/JJLine/Model/main/Main/Img/temp_001.jpg",
                     "content":"https://www.zhihu.com/"
                 },
                 {
                     "analysis":true,
                     "title":"TestPage",
-                    "image":"https://raw.githubusercontent.com/JJLine/Model/main/Main/Img/temp_001.jpg?token=",
-                    "content":"https://raw.githubusercontent.com/JJLine/Model/main/03/Page/test_001.html?token="
+                    "image":"https://raw.githubusercontent.com/JJLine/Model/main/Main/Img/temp_001.jpg",
+                    "content":"https://raw.githubusercontent.com/JJLine/Model/main/03/Page/test_001.html"
                 }
             ]
         }
