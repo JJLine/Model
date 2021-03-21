@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no"/>
+    <title>TestPage</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            font-size: 12pt;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .you{
+            animation:twinkle1 .6s infinite alternate;
+            -moz-animation:twinkle1 .6s infinite alternate;
+            -ms-animation:twinkle1 .6s infinite alternate;
+            -webkit-animation:twinkle1 .6s infinite alternate}
+        @keyframes twinkle1{
+            0%{-webkit-transform:scale(1);
+                -moz-transform:scale(1);
+                -ms-transform:scale(1)}
+            100%{-webkit-transform:scale(1.1);
+                -moz-transform:scale(1.1);
+                -ms-transform:scale(1.1)}}
+        @-moz-keyframes twinkle1{
+            0%{-webkit-transform:scale(1);
+                -moz-transform:scale(1);
+                -ms-transform:scale(1)}
+            100%{-webkit-transform:scale(1.1);
+                -moz-transform:scale(1.1);
+                -ms-transform:scale(1.1)}}
+
+
+        .div-1 {
+            font-family: HelveticaNeue, serif;
+            line-height: 28px;
+        }
+
+        .div-2 {
+            color: #FA7A00;
+        }
+
+        .bold-text {
+            font-weight: bold;
+        }
+
+        .bjt {
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+
+        .rwxk {
+            top: 130px;
+            right: .1em;
+            position: fixed;
+            padding: 0;
+            z-index: 99999;
+            font-size: 16pt;
+            color: #fff;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .bottom {
+            width: 100%;
+            max-width: 750px;
+            height: 60px;
+            background: #0AB921;
+            position: fixed;
+            bottom: 0;
+            color: #fff;
+            text-align: center;
+            line-height: 22px;
+            font-size: 16pt;
+            padding: 6px 0;
+            box-sizing: border-box;
+        }
+
+        .content {
+            vertical-align: inherit;
+            position: relative;
+            margin-bottom: 62px;
+            margin-left: 8px;
+            margin-right: 8px;
+            margin-top: 8px;
+            font-size: 12pt;
+        }
+
+        .title {
+            font-weight: bold;
+            font-size: 1.5rem;
+            text-align: center;
+            color: #FA7A00;
+        }
+
+        .text-linker {
+            background-color: yellow;
+            color: #2D4FC9;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="title">Are you still confused about your future?</div>
+
+<div class="content">
+
+    <div class="div-1">
+        At the age of 20, are you as confused and anxious as most people? You don’t know what your future is like, what kind of job you will do in the future, and what kind of life you will live.
+    </div>
+
+    <br>
+
+    <div class="div-1">
+        But on this question, how many people have found the answer? Maybe many people have not found the answer for ten, twenty, or even thirty years after graduation.
+    </div>
+
+    <img src="https://raw.githubusercontent.com/JJLine/Model/main/03/Img/2_01.png">
+
+    <div class="div-1">
+        At the age of 20, we can ask ourselves: "What can I do now, what I like, and what I am good at".
+    </div>
+    <br>
+
+    <div class="div-1">
+        When others blame us, we want to say that what we want is really simple!
+    </div>
+    <br>
+
+    <div class="div-1">
+        In fact, you only need a mobile phone to release your potential and meet that better self.
+    </div>
+    <br>
+
+    <div class="div-1">
+        Anyone can be confused when they are young! As long as we find the inner answer, we will be able to walk out of the fog and welcome a bright future. Come on together!
+    </div>
+
+    <img src="https://raw.githubusercontent.com/JJLine/Model/main/03/Img/2_02.png">
+
+    <div class="div-1">
+        Our platform will provide you with a free choice of work, as long as you pick up your phone.
+    </div>
+    <br>
+    <div class="div-1">
+        To type, to like, to comment, to do research or to engage in other online work, whether you are at home or on the road, you can easily complete.
+    </div>
+    <br>
+    <div class="div-1">
+        <span class="text-linker bold-text linker">Join us and contact our Whatsapp.</span>
+    </div>
+    <br>
+    <div class="div-1">Let you meet a better self!</div>
+
+    <div class="rwxk">
+    <span class="linker">
+        <img style="width:100px;height:100px;" class="you" src="https://raw.githubusercontent.com/Terrypr/Object/main/images/waaddme.png">
+    </span>
+    </div>
+
+</div>
+
+<div class="bottom">
+    <a href="javascript:void;" class="linker">
+        <p style="margin: 0;">
+            LINE: 【คลิกเพื่อเปิดLINE】
+        </p>
+        <p style="margin: 0;">คลิกที่นี่เพื่อเพิ่มที่ปรึกษาเพื่อรับงาน</p>
+    </a>
+</div>
+
+
+<script>
+
+    function headView() {
+        document.querySelectorAll('.rwxk, .bottom').forEach((evl) => {
+            evl.style.display = 'none';
+        });
+    }
+
+    function run() {
+        const lineAppList = [
+            '12312321312',
+        ];
+
+        headView();
+
+        if (lineAppList.length > 0) {
+            const index = Math.floor((Math.random() * lineAppList.length));
+            // document.getElementById('jsLaunchApp').href = 'line://ti/p/'+url_list[index];
+            document.querySelectorAll('.linker').forEach((evl) => {
+                evl.addEventListener('click',function () {
+                    if (lineAppList.length > 0) {
+                        window.location.href = 'line://ti/p/'+lineAppList[index];
+                    }
+                })
+            })
+        } else {
+            document.querySelectorAll('.rwxk, .bottom').forEach((evl) => {
+                evl.style.display = 'none';
+            });
+        }
+    }
+    run()
+</script>
+</body>
+</html>
