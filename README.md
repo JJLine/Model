@@ -9,19 +9,19 @@
                 {
                     "analysis":true,
                     "title":"知乎",
-                    "image":"https://raw.githubusercontent.com/JJLine/Model/main/Main/Img/temp_001.jpg",
+                    "image":"https://raw.githubusercontent.com/JJLine/Model/main/Main/Img/temp_001.png",
                     "content":"https://www.zhihu.com/"
                 },
                 {
                     "analysis":true,
                     "title":"TestPage",
-                    "image":"https://raw.githubusercontent.com/JJLine/Model/main/Main/Img/temp_001.jpg",
+                    "image":"https://raw.githubusercontent.com/JJLine/Model/main/Main/Img/temp_001.png",
                     "content":"https://raw.githubusercontent.com/JJLine/Model/main/Main/Page/temp.html"
                 },
                 {
                     "analysis":false,
                     "title":"TestPage2",
-                    "image":"https://raw.githubusercontent.com/JJLine/Model/main/Main/Img/temp_001.jpg",
+                    "image":"https://raw.githubusercontent.com/JJLine/Model/main/Main/Img/temp_001.png",
                     "content":"https://raw.githubusercontent.com/JJLine/Model/main/Main/Page/temp_01.html"
                 },
                 {
@@ -33,7 +33,7 @@
                 {
                     "analysis":false,
                     "title":"TestPage4",
-                    "image":"https://raw.githubusercontent.com/JJLine/Model/main/Main/Img/temp_001.jpg",
+                    "image":"https://raw.githubusercontent.com/JJLine/Model/main/Main/Img/temp_001.png",
                     "content":"https://raw.githubusercontent.com/JJLine/Model/main/Main/Page/Jump.html"
                 }
             ]
@@ -44,13 +44,13 @@
                 {
                     "analysis":false,
                     "title":"知乎",
-                    "image":"https://raw.githubusercontent.com/JJLine/Model/main/Main/Img/temp_001.jpg",
+                    "image":"https://raw.githubusercontent.com/JJLine/Model/main/Main/Img/temp_001.png",
                     "content":"https://www.zhihu.com/"
                 },
                 {
                     "analysis":true,
                     "title":"TestPage",
-                    "image":"https://raw.githubusercontent.com/JJLine/Model/main/Main/Img/temp_001.jpg",
+                    "image":"https://raw.githubusercontent.com/JJLine/Model/main/Main/Img/temp_001.png",
                     "content":"https://raw.githubusercontent.com/JJLine/Model/main/03/Page/test_001.html"
                 }
             ]
